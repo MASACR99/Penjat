@@ -98,7 +98,7 @@ public class Tauler {
         if (encontrado){
             frase="Lletra correcte, n'hi ha "+contador;
         }
-        else if (!encontrado & lletraChar.length==1){
+        else if (!encontrado && lletraChar.length==1){
             this.intents-=1;
             frase="Lletra correcte, desgraciadament no es troba a la frase";
         }
